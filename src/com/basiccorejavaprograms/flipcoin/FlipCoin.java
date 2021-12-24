@@ -1,4 +1,4 @@
-package com.basicorejavaprograms.flipcoin;
+package com.basiccorejavaprograms.flipcoin;
 
 import java.util.Scanner;
 
