@@ -9,11 +9,12 @@ public class HarmonicNumber
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter harmonic value: ");
         int number = sc.nextInt();
+        double harmonicNum =0;
         if (number > 0)
         {
             for (double i=1;i<=number;i++)
             {
-                double harmonicNum += (1/i);
+                harmonicNum += (1/i);
             }
             System.out.println("Nth harmonic number is :"+harmonicNum);
         }
